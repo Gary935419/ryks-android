@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_withdraw_deposit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.inwhoop.qscx.qscxsj.activitys.main.WithdrawDepositActivity">
+
+    <include
+        android:id="@+id/title_activity_withdraw_deposit_inc"
+        layout="@layout/title_base" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white_color"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="开户行"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+            <EditText
+                android:id="@+id/activity_withdraw_deposit_bank"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent_color"
+                android:hint="请填写开户行"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/travel_records_text_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separate_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="姓名"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+            <EditText
+                android:id="@+id/activity_withdraw_deposit_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent_color"
+                android:hint="请填写姓名"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/travel_records_text_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separate_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="卡号"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+            <EditText
+                android:id="@+id/activity_withdraw_deposit_card_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent_color"
+                android:hint="请填写卡号"
+                android:inputType="number"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/travel_records_text_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/separate_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="金额"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+            <EditText
+                android:id="@+id/activity_withdraw_deposit_fee"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent_color"
+                android:hint="请填写金额"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/travel_records_text_color"
+                android:textSize="@dimen/font_size_smaller" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:text="提现说明：您可在每周三9:00-22:00间取出截止上周日24:00前的所有未提现收入，当日提现不能超过1次，提现总额不能超过1万元"
+        android:textColor="@color/content_text"
+        android:textSize="@dimen/font_size_smallest" />
+
+    <Button
+        android:id="@+id/activity_withdraw_deposit_ok"
+        android:layout_width="355dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:text="确认提现，48小时到账"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_large" />
+
+</LinearLayout>

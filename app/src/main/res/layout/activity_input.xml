@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_base" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/feed_back_edit_shape"
+        android:gravity="top"
+        android:hint="请输入邀请人码"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_small"
+        android:textColor="@color/black_color"
+        android:textColorHint="@color/car_message_text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/ButtonMatch"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_selector"
+        android:text="提交"
+        android:textColor="@color/white_color" />
+</LinearLayout>

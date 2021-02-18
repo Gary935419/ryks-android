@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">如邮司机</string>
+
+    <string name="no_net_connnected">网络不可用, 请检查网络设置是否正确</string>
+</resources>

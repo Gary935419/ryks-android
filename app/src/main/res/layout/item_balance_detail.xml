@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/white_color">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_balance_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收到车费"
+                android:textColor="@color/black_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_balance_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="11-11 17:48"
+                android:textColor="@color/item_balance_time_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_balance_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+25.0"
+                android:textColor="#fdaf49"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_balance_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="135****5965"
+                android:textColor="@color/item_balance_time_color"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

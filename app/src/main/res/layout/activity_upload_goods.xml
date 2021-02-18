@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.ordertaking.UploadGoodsActivity">
+
+    <include layout="@layout/title_base" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:text="请上传货物相关图片(3张)"
+        android:textColor="@color/red_color"
+        android:textSize="@dimen/font_size_small" />
+
+    <LinearLayout
+        android:id="@+id/layout_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/dp10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:src="@drawable/ic_camera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:text="拍照"
+            android:textSize="@dimen/font_size_larger" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp120"
+            android:layout_weight="1"
+            android:background="@color/default_bg"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="@dimen/dp10"
+            android:layout_height="@dimen/dp10" />
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp120"
+            android:layout_weight="1"
+            android:background="@color/default_bg"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="@dimen/dp10"
+            android:layout_height="@dimen/dp10" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp120"
+            android:layout_weight="1"
+            android:background="@color/default_bg"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/ButtonMatch"
+        android:text="提交" />
+</LinearLayout>

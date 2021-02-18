@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_received_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.inwhoop.qscx.qscxsj.activitys.main.ReceivedOrderActivity">
+
+    <include
+        android:id="@+id/title_activity_received_order_inc"
+        layout="@layout/title_base" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.inwhoop.qscx.qscxsj.views.InnerListView
+                android:id="@+id/activity_received_order_inlv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_received_order_ok_btn"
+                android:layout_width="355dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/button_selector"
+                android:text="开始配送"
+                android:textColor="@color/white_color"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

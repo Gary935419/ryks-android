@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_base" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:gravity="center">
+
+        <com.androidkun.xtablayout.XTabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="@dimen/dp200"
+            android:layout_height="@dimen/dp50"
+            android:layout_gravity="center_horizontal"
+            app:xTabBackgroundColor="@color/color_white"
+            app:xTabDisplayNum="2"
+            app:xTabIndicatorColor="@color/theme"
+            app:xTabIndicatorHeight="@dimen/dp4"
+            app:xTabIndicatorRoundX="@dimen/dp5"
+            app:xTabIndicatorRoundY="@dimen/dp5"
+            app:xTabIndicatorWidth="@dimen/dp10"
+            app:xTabMode="fixed"
+            app:xTabSelectedBackgroundColor="@color/color_white"
+            app:xTabSelectedTextColor="@color/theme"
+            app:xTabSelectedTextSize="@dimen/font_size_larger"
+            app:xTabTextSelectedBold="true"
+            app:xTabTextSize="@dimen/font_size_normal" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

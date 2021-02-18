@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_balance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.inwhoop.qscx.qscxsj.activitys.main.MyBalanceActivity">
+
+    <include
+        android:id="@+id/title_activity_my_balance_inc"
+        layout="@layout/title_base" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/title_center_back_color">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="31dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总金额(元)"
+                android:textColor="@color/white_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/activity_my_balance_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textColor="@color/white_color"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activity_my_balance_withdrawals_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/dialog_chengji_shape"
+            android:text="提现"
+            android:textColor="@color/title_center_back_color"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <com.inwhoop.qscx.qscxsj.views.MySwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.inwhoop.qscx.qscxsj.views.MySwipeRefreshLayout>
+
+</LinearLayout>

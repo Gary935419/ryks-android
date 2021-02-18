@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="theme">#fd8625</color>
+
+    <color name="transparent_color">#00000000</color>
+    <color name="black_color">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="default_bg">#eeeeee</color>
+    <color name="grey_color">#C0C0C0</color>
+    <color name="grey_color_tr">#e0CCCCCC</color>
+    <color name="red_color">#FF0000</color>
+    <color name="green_color">#00FF00</color>
+    <color name="blue_color">#0000FF</color>
+    <color name="blue_color_tr">#e00000FF</color>
+    <color name="yellow_color">#FFFF00</color>
+
+    <!--文本颜色-->
+    <color name="home_text">#222222</color>     <!--标题文字颜色-->
+    <color name="content_text">#666666</color>  <!--内容文字颜色1-->
+    <color name="text_80">#808080</color>       <!--内容文字颜色2-->
+    <color name="hint_text">#aaaaaa</color>     <!--默认文字的颜色-->
+    <color name="color_99">#999999</color>     <!--默认文字的颜色-->
+    <color name="color_cc">#cccccc</color>     <!--默认文字的颜色2-->
+    <color name="title_text">#ffffff</color>     <!--标题栏文字颜色-->
+    <color name="color_74">#747474</color>     <!---->
+    <color name="color_44">#444444</color>     <!---->
+    <color name="color_55">#555555</color>     <!---->
+
+    <color name="color_white">#ffffff</color>       <!--纯白-->
+    <color name="color_black">#000000</color>       <!--纯黑-->
+    <color name="color_green">#44db5e</color>       <!--纯黑-->
+    <color name="half_white_transparent">#80ffffff</color><!--半透明白-->
+    <color name="half_black_transparent">#50000000</color><!--半透明黑-->
+    <color name="eighty_black_transparent">#a8000000</color><!--80%半透明黑-->
+
+    <color name="title_center_back_color">#fd8625</color>
+
+    <color name="app_background_color">#f6f6f6</color>
+
+    <color name="title_base_text_color">#ffffff</color>
+
+    <color name="hint_text_login_color">#9c9c9c</color>
+
+    <color name="dialog_title_text_color">#9b9b9b</color>
+
+    <color name="blue_text_register_color">#1e83ee</color>
+
+    <color name="careful_text_color">#bdbdbd</color>
+
+    <color name="separate_color">#dbdbdb</color>
+
+    <color name="ps_text_color">#f54046</color>
+
+    <color name="chose_text_color">#a4a4a4</color>
+
+    <color name="item_balance_time_color">#b9b9b9</color>
+
+    <color name="car_message_text_color">#d9d9d9</color>
+
+    <color name="travel_records_text_color">#9d9d9d</color>
+
+    <color name="travel_cost_text_color">#fe8525</color>
+
+    <color name="my_order_halving_line_color">#ededed</color>
+    <color name="line_color">#dddddd</color>
+
+    <color name="jiage_licheng">#838383</color>
+
+    <color name="traffic_green">#0FCD77</color>
+    <color name="traffic_route_blue">#61B0FF</color>
+    <color name="traffic_route_green">#3CCF8B</color>
+    <color name="traffic_serious_red">#991213</color>
+    <color name="traffic_red">#F34C4C</color>
+    <color name="traffic_yellow">#FDC71F</color>
+
+    <color name="location_circle_stroke">#D33595FF</color>
+    <color name="location_circle">#273B96FF</color>
+
+    <color name="welcome_top">#C6FEFF</color>
+    <color name="welcome_bottom">#01FFFF</color>
+</resources>

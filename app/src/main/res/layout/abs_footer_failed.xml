@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_goods_footer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp44">
+
+    <View
+        style="@style/LineMargin"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp44"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingEnd="@dimen/dp10"
+        android:paddingStart="@dimen/dp10"
+        android:text="加载失败，点击重新加载"
+        android:textColor="@color/hint_text"
+        android:textSize="@dimen/font_size_smallest" />
+
+</RelativeLayout>

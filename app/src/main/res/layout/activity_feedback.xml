@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.inwhoop.qscx.qscxsj.activitys.main.FeedbackActivity">
+
+    <include
+        android:id="@+id/title_activity_login_inc"
+        layout="@layout/title_base" />
+
+    <EditText
+        android:id="@+id/activity_feedback_feedback_edt"
+        android:layout_width="335dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:maxLength="300"
+        android:background="@drawable/feed_back_edit_shape"
+        android:gravity="top"
+        android:hint="请提出您宝贵的意见"
+        android:singleLine="false"
+        android:textColor="@color/black_color"
+        android:textColorHint="@color/car_message_text_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="1-300字"
+            android:textColor="@color/black_color"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/activity_feedback_ok_btn"
+        android:layout_width="355dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_selector"
+        android:text="提交反馈"
+        android:textColor="@color/white_color"
+        android:textSize="17sp" />
+
+</LinearLayout>
